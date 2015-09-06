@@ -49,4 +49,4 @@ All Solutions:  `2ms`
 
 4`/`1`+`9`x`1`-`7`/`6`x`5
 
-Based on the benchmarl, I think Brute Force is just doing fine. No need to think of any more intelligent alternatives to cut down processing time.
+Based on the benchmarks, I think Brute Force is just doing fine. No need to think of any more intelligent alternatives to cut down processing time.

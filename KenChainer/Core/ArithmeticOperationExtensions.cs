@@ -4,9 +4,9 @@ namespace KenChainer.Core
 {
     public static class ArithmeticOperationExtensions
     {
-        public static string GetSign(this ArithmeticOperation arithmeticOperation)
+        public static string GetSign(this ArithmeticOperation operation)
         {
-            switch (arithmeticOperation)
+            switch (operation)
             {
                 case ArithmeticOperation.Addition:
                     return "+";
@@ -19,15 +19,15 @@ namespace KenChainer.Core
                 case ArithmeticOperation.None:
                     throw new NotSupportedException();
                 default:
-                    throw new ArgumentOutOfRangeException(nameof(arithmeticOperation), arithmeticOperation, null);
+                    throw new ArgumentOutOfRangeException(nameof(operation), operation, null);
             }
         }
 
-        public static ushort GetResult(this ArithmeticOperation arithmeticOperation, ushort left, byte right)
+        public static ushort GetResult(this ArithmeticOperation operation, ushort left, byte right)
         {
-            if (!arithmeticOperation.IsValidOn(left, right))
+            if (!operation.IsValidOn(left, right))
                 throw new NotSupportedException();
-            switch (arithmeticOperation)
+            switch (operation)
             {
                 case ArithmeticOperation.Addition:
                     return (ushort)(left + right);

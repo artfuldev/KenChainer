@@ -5,7 +5,7 @@ using KenChainer.Core;
 namespace KenChainer.Validators
 {
     /// <summary>
-    /// Defaults rules for the problem go here.
+    /// Default rules for the problem go here.
     /// Currently there are 3 rules:
     /// Only 7 numbers
     /// Only 6 operators

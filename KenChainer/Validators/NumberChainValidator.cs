@@ -6,7 +6,7 @@ namespace KenChainer.Validators
 {
     /// <summary>
     /// Default rules for the problem go here.
-    /// Currently there are 3 rules:
+    /// Currently there are 4 rules:
     /// Only 7 numbers
     /// Only 6 operators
     /// All 4 operators must be used

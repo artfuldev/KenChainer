@@ -53,7 +53,7 @@ namespace KenChainer.Solvers
             return await Task.FromResult(solutions);
         }
 
-        public IEnumerable<NumberChain> GenerateChains(ushort[] numbers)
+        public IEnumerable<NumberChain> GenerateChains(byte[] numbers)
         {
             IEnumerable<NumberChain> chains = new List<NumberChain> { new NumberChain(numbers[0]) };
             var rest = numbers.ToList();
@@ -61,7 +61,7 @@ namespace KenChainer.Solvers
             return rest.Aggregate(chains, (current, number) => current.SelectMany(x => GenerateChains(number, x)));
         }
 
-        public IEnumerable<NumberChain> GenerateChains(ushort number, NumberChain previous)
+        public IEnumerable<NumberChain> GenerateChains(byte number, NumberChain previous)
         {
             return GetPossibleOperations()
                 .Where(x => x.IsValidOn(previous, number))

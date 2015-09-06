@@ -7,10 +7,10 @@ namespace KenChainer.Validators
     /// <summary>
     /// Default rules for the problem go here.
     /// Currently there are 4 rules:
-    /// Only 7 numbers
-    /// Only 6 operators
-    /// All 4 operators must be used
-    /// 2 operators must be used twice
+    /// 1. Only 7 numbers
+    /// 2. Only 6 operators
+    /// 3. All 4 operators must be used
+    /// 4. 2 operators must be used twice
     /// </summary>
     public class NumberChainValidator : INumberChainValidator
     {

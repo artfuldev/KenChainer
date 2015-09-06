@@ -1,21 +1,25 @@
 # KenChainer
-## Number Chain Solver
 * Author(s): Kenshin Himura *(Sudarsan Balaji)*
 * License: *The MIT License (MIT)* (see LICENSE)
 * Application Version: 1.0.0
-* ReadMe Version: 1.0.1
+* ReadMe Version: 1.0.2
 
-## Problem Description
+## Number Chain Solver
 Starting with a number, find a way in which if you insert all the four arithmetical signs - two of them twice - in the blanks and carry out all the operations in sequence to obtain the answer given.
 
 ## Sample Problem
 
 The Times of India
+
 Chennai Times
+
 Page 4
+
 September 6, 2015
+
 Result = 5
-Sequence = 4_1_9_1_7_6_5
+
+Sequence = 4`_`1`_`9`_`1`_`7`_`6`_`5
 
 ## Solution
 
@@ -23,16 +27,24 @@ Sequence = 4_1_9_1_7_6_5
 
 First Solution: 634ms
 
-4+1+9-1-7/6x5
+4`+`1`+`9`-`1`-`7`/`6`x`5
 
 All Solutions:  6368ms
 
-4+1+9-1-7/6x5
-4+1+9/1-7-6x5
-4-1+9+1-7/6x5
-4-1x9+1/7+6-5
-4x1+9/1-7-6+5
-4x1+9/1-7/6x5
-4/1+9+1-7-6x5
-4/1+9x1-7-6+5
-4/1+9x1-7/6x5
+4`+`1`+`9`-`1`-`7`/`6`x`5
+
+4`+`1`+`9`/`1`-`7`-`6`x`5
+
+4`-`1`+`9`+`1`-`7`/`6`x`5
+
+4`-`1`x`9`+`1`/`7`+`6`-`5
+
+4`x`1`+`9`/`1`-`7`-`6`+`5
+
+4`x`1`+`9`/`1`-`7`/`6`x`5
+
+4`/`1`+`9`+`1`-`7`-`6`x`5
+
+4`/`1`+`9`x`1`-`7`-`6`+`5
+
+4`/`1`+`9`x`1`-`7`/`6`x`5

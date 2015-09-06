@@ -2,7 +2,7 @@
 {
     public class NumberChain
     {
-        public NumberChain(ushort number, NumberChain previous  = null, ArithmeticOperation? operation = null, ushort? result = null)
+        public NumberChain(byte number, NumberChain previous  = null, ArithmeticOperation? operation = null, ushort? result = null)
         {
             Number = number;
             Previous = previous;
@@ -13,7 +13,7 @@
                 Result = Operation.Value.GetResult(Previous.Result ?? Previous.Number, Number);
         }
 
-        public ushort Number { get; }
+        public byte Number { get; }
         public ArithmeticOperation? Operation { get; }
         public ushort? Result { get; }
         public NumberChain Previous { get; }

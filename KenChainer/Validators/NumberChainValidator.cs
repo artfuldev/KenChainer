@@ -1,8 +1,8 @@
 using System.Linq;
 using System.Text.RegularExpressions;
-using NumberChainSolver.Core;
+using KenChainer.Core;
 
-namespace NumberChainSolver.Validators
+namespace KenChainer.Validators
 {
     /// <summary>
     /// Defaults rules for the problem go here.

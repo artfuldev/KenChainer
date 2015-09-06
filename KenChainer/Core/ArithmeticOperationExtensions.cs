@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NumberChainSolver.Core
+namespace KenChainer.Core
 {
     public static class ArithmeticOperationExtensions
     {

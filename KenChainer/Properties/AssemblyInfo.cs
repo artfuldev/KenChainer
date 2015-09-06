@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NumberChainSolver")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("KenChainer")]
+[assembly: AssemblyDescription("A solver for the Number Chain Problems appearing in the Times paper leisure column.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NumberChainSolver")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyProduct("KenChainer")]
+[assembly: AssemblyCopyright("Copyright ©  2015, Kenshin The Battōsai (Sudarsan Balaji)")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2f48bfe7-ed2c-47fe-b97e-45d750a24cc9")]
+[assembly: Guid("a095e24e-e8b4-49d2-9bbc-d17899b6e97e")]
 
 // Version information for an assembly consists of the following four values:
 //

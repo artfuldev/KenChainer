@@ -1,4 +1,4 @@
-﻿namespace NumberChainSolver.Core
+﻿namespace KenChainer.Core
 {
     public class NumberChain
     {

@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
-using System.Linq;
-using NumberChainSolver.Core;
-using NumberChainSolver.Solvers;
+using KenChainer.Core;
+using KenChainer.Solvers;
 
-namespace NumberChainSolver
+namespace KenChainer
 {
     class Program
     {

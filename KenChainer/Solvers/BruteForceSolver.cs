@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NumberChainSolver.Core;
-using NumberChainSolver.Validators;
+using KenChainer.Core;
+using KenChainer.Validators;
 
-namespace NumberChainSolver.Solvers
+namespace KenChainer.Solvers
 {
     public class BruteForceSolver : INumberChainSolver
     {

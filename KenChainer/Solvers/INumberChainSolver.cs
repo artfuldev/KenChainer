@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using NumberChainSolver.Core;
+using KenChainer.Core;
 
-namespace NumberChainSolver.Solvers
+namespace KenChainer.Solvers
 {
     public interface INumberChainSolver
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NumberChainSolver.Core
+namespace KenChainer.Core
 {
     public static class NumberChainExtensions
     {

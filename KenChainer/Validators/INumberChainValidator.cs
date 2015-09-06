@@ -1,6 +1,6 @@
-﻿using NumberChainSolver.Core;
+﻿using KenChainer.Core;
 
-namespace NumberChainSolver.Validators
+namespace KenChainer.Validators
 {
     public interface INumberChainValidator
     {

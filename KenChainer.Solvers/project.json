@@ -1,0 +1,23 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "KenChainer.Solvers Class Library",
+  "authors": [ "Kenshin The Battōsai (Sudarsan Balaji)" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "System.Collections": "4.0.10",
+    "System.Linq": "4.0.0",
+    "System.Threading": "4.0.10",
+    "System.Runtime": "4.0.20",
+    "System.Text.RegularExpressions": "4.0.10",
+    "Microsoft.CSharp": "4.0.0",
+    "KenChainer.Core": "",
+    "KenChainer.Validators": ""
+  },
+
+  "frameworks": {
+    "dotnet": { }
+  }
+}

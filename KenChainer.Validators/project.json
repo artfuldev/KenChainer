@@ -1,0 +1,22 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "KenChainer.Validators Class Library",
+  "authors": [ "Kenshin" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "System.Collections": "4.0.10",
+    "System.Linq": "4.0.0",
+    "System.Threading": "4.0.10",
+    "System.Runtime": "4.0.20",
+    "System.Text.RegularExpressions": "4.0.10",
+    "Microsoft.CSharp": "4.0.0",
+    "KenChainer.Core": ""
+  },
+
+  "frameworks": {
+    "dotnet": { }
+  }
+}

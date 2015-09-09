@@ -1,0 +1,17 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "KenChainer Console Application",
+  "authors": [ "Kenshin The Battōsai (Sudarsan Balaji)" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "KenChainer.Core": "",
+    "KenChainer.Solvers":  ""
+  },
+
+  "frameworks": {
+    "dotnet": { }
+  }
+}

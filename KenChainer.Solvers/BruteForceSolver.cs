@@ -36,7 +36,7 @@ namespace KenChainer.Solvers
             var chains = GenerateChains(numbers);
             var solution = chains.FirstOrDefault(x => x.Result == result && _validator.IsValid(x));
             if (solution == null)
-                throw new NotFiniteNumberException("No result possible");
+                throw new NotSupportedException("No result possible");
             return await Task.FromResult(solution);
         }
 
@@ -49,7 +49,7 @@ namespace KenChainer.Solvers
             var chains = GenerateChains(numbers);
             var solutions = chains.Where(x => x.Result == result && _validator.IsValid(x)).ToList();
             if (solutions == null || !solutions.Any())
-                throw new NotFiniteNumberException("No result possible");
+                throw new NotSupportedException("No result possible");
             return await Task.FromResult(solutions);
         }
 

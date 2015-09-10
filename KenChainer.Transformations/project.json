@@ -1,0 +1,49 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "KenChainer.Transformations Class Library",
+  "authors": [ "Kenshin" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "KenChainer.Core": "",
+    "Microsoft.CSharp": "4.0.0"
+  },
+
+  "frameworks": {
+    "net46": {
+      "dependencies": {
+        "Antlr3.Runtime": "1.0.0-*",
+        "Emgu.CV.Contrib": "1.0.0-*",
+        "Emgu.CV.Cuda": "1.0.0-*",
+        "Emgu.CV.DebuggerVisualizers.VS2010": "1.0.0-*",
+        "Emgu.CV.DebuggerVisualizers.VS2012": "1.0.0-*",
+        "Emgu.CV.DebuggerVisualizers.VS2013": "1.0.0-*",
+        "Emgu.CV.DebuggerVisualizers.VS2015": "1.0.0-*",
+        "Emgu.CV": "1.0.0-*",
+        "Emgu.CV.ML": "1.0.0-*",
+        "Emgu.CV.OCR": "1.0.0-*",
+        "Emgu.CV.Shape": "1.0.0-*",
+        "Emgu.CV.Stitching": "1.0.0-*",
+        "Emgu.CV.Superres": "1.0.0-*",
+        "Emgu.CV.UI": "1.0.0-*",
+        "Emgu.CV.UI.GL": "1.0.0-*",
+        "Emgu.CV.VideoStab": "1.0.0-*",
+        "Emgu.Util": "1.0.0-*",
+        "Iesi.Collections": "1.0.0-*",
+        "log4net": "1.0.0-*",
+        "NHibernate.ByteCode.LinFu": "1.0.0-*",
+        "NHibernate": "1.0.0-*",
+        "OpenTK": "1.0.0-*",
+        "OpenTK.GLControl": "1.0.0-*",
+        "System.Data.SQLite": "1.0.0-*",
+        "ZedGraph": "1.0.0-*"
+      },
+      "frameworkAssemblies": {
+        "System.Xml": "4.0.0.0",
+        "System.Drawing": "4.0.0.0"
+      }
+    }
+  }
+}

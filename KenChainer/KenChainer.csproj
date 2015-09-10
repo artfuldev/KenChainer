@@ -187,21 +187,22 @@
     <Content Include="Problems\TestImage.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Problems\TestImage2.jpg" />
+    <Content Include="Problems\TestImage3.jpg" />
     <Content Include="Results\TestImage-blurred.jpg" />
     <Content Include="Results\TestImage-canny.jpg" />
     <Content Include="Results\TestImage-closed.jpg" />
-    <Content Include="Results\TestImage-filteredproblem.jpg" />
-    <Content Include="Results\TestImage-grey.jpg" />
+    <Content Include="Results\TestImage-gray.jpg" />
     <Content Include="Results\TestImage-masked.jpg" />
     <Content Include="Results\TestImage-normalized.jpg" />
     <Content Include="Results\TestImage-opened.jpg" />
+    <Content Include="Results\TestImage-problem-filtered.jpg" />
     <Content Include="Results\TestImage-problem-normalized.jpg" />
-    <Content Include="Results\TestImage-problem-thresholded.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Results\TestImage-problem-thresholded.jpg" />
     <Content Include="Results\TestImage-problem.jpg" />
     <Content Include="Results\TestImage-thresholded.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

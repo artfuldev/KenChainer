@@ -567,6 +567,8 @@ namespace KenChainer.Universal
             // Create sample file; replace if exists.
             StorageFolder folder =
                 ApplicationData.Current.LocalFolder;
+            StorageFolder tempDirectory =
+                await folder.CreateFolderAsync("MacgickTemp", CreationCollisionOption.ReplaceExisting);
             StorageFile sampleFile =
                 await folder.CreateFileAsync("sample.jpg",
                     CreationCollisionOption.ReplaceExisting);
@@ -586,12 +588,11 @@ namespace KenChainer.Universal
                 Debug.WriteLine("Exception when taking a photo: {0}", ex.ToString());
             }
             // File saved
-            // Read with Emgu
         }
 
         private async void PuzzleHolder_OnTapped(object sender, TappedRoutedEventArgs e)
         {
-            await TakePhotoAsync();
+            await ProcessPuzzle();
         }
     }
 }

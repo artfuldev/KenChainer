@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KenChainer", "KenChainer\Ke
 	ProjectSection(ProjectDependencies) = postProject
 		{1CB3860C-8343-4F0B-927E-438ECA3046CC} = {1CB3860C-8343-4F0B-927E-438ECA3046CC}
 		{239A1A23-6E93-4A44-9F7A-D6AF6BDC1B12} = {239A1A23-6E93-4A44-9F7A-D6AF6BDC1B12}
+		{69616565-6A55-4477-B008-6D032D51EF47} = {69616565-6A55-4477-B008-6D032D51EF47}
 		{333FBF8C-63F3-4AB5-A0F5-603AF594912D} = {333FBF8C-63F3-4AB5-A0F5-603AF594912D}
 	EndProjectSection
 EndProject
@@ -23,6 +24,56 @@ EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KenChainer.Validators", "KenChainer.Validators\KenChainer.Validators.xproj", "{239A1A23-6E93-4A44-9F7A-D6AF6BDC1B12}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KenChainer.Universal", "KenChainer.Universal\KenChainer.Universal.csproj", "{94DF8CB1-510E-47BF-9A61-22DC146DE2EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{5B532AE5-BDF5-40FC-85C1-90EF9DC84011}"
+	ProjectSection(SolutionItems) = preProject
+		References\Antlr3.Runtime.dll = References\Antlr3.Runtime.dll
+		References\cvextern.dll = References\cvextern.dll
+		References\Emgu.CV.Contrib.dll = References\Emgu.CV.Contrib.dll
+		References\Emgu.CV.Cuda.dll = References\Emgu.CV.Cuda.dll
+		References\Emgu.CV.DebuggerVisualizers.VS2010.dll = References\Emgu.CV.DebuggerVisualizers.VS2010.dll
+		References\Emgu.CV.DebuggerVisualizers.VS2012.dll = References\Emgu.CV.DebuggerVisualizers.VS2012.dll
+		References\Emgu.CV.DebuggerVisualizers.VS2013.dll = References\Emgu.CV.DebuggerVisualizers.VS2013.dll
+		References\Emgu.CV.DebuggerVisualizers.VS2015.dll = References\Emgu.CV.DebuggerVisualizers.VS2015.dll
+		References\Emgu.CV.dll = References\Emgu.CV.dll
+		References\Emgu.CV.ML.dll = References\Emgu.CV.ML.dll
+		References\Emgu.CV.OCR.dll = References\Emgu.CV.OCR.dll
+		References\Emgu.CV.Shape.dll = References\Emgu.CV.Shape.dll
+		References\Emgu.CV.Stitching.dll = References\Emgu.CV.Stitching.dll
+		References\Emgu.CV.Superres.dll = References\Emgu.CV.Superres.dll
+		References\Emgu.CV.UI.dll = References\Emgu.CV.UI.dll
+		References\Emgu.CV.UI.GL.dll = References\Emgu.CV.UI.GL.dll
+		References\Emgu.CV.VideoStab.dll = References\Emgu.CV.VideoStab.dll
+		References\Emgu.CV.XML = References\Emgu.CV.XML
+		References\Emgu.Util.dll = References\Emgu.Util.dll
+		References\Iesi.Collections.dll = References\Iesi.Collections.dll
+		References\log4net.dll = References\log4net.dll
+		References\msvcp120.dll = References\msvcp120.dll
+		References\msvcr120.dll = References\msvcr120.dll
+		References\NHibernate.ByteCode.LinFu.dll = References\NHibernate.ByteCode.LinFu.dll
+		References\NHibernate.dll = References\NHibernate.dll
+		References\opencv_ffmpeg300.dll = References\opencv_ffmpeg300.dll
+		References\opencv_world300.dll = References\opencv_world300.dll
+		References\OpenTK.dll = References\OpenTK.dll
+		References\OpenTK.GLControl.dll = References\OpenTK.GLControl.dll
+		References\System.Data.SQLite.DLL = References\System.Data.SQLite.DLL
+		References\ZedGraph.dll = References\ZedGraph.dll
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KenChainer.Transformations", "KenChainer.Transformations\KenChainer.Transformations.xproj", "{69616565-6A55-4477-B008-6D032D51EF47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tessdata", "tessdata", "{BB769634-9987-415C-8297-CADE6BC11624}"
+	ProjectSection(SolutionItems) = preProject
+		References\tessdata\eng.cube.bigrams = References\tessdata\eng.cube.bigrams
+		References\tessdata\eng.cube.fold = References\tessdata\eng.cube.fold
+		References\tessdata\eng.cube.lm = References\tessdata\eng.cube.lm
+		References\tessdata\eng.cube.nn = References\tessdata\eng.cube.nn
+		References\tessdata\eng.cube.params = References\tessdata\eng.cube.params
+		References\tessdata\eng.cube.size = References\tessdata\eng.cube.size
+		References\tessdata\eng.cube.word-freq = References\tessdata\eng.cube.word-freq
+		References\tessdata\eng.tesseract_cube.nn = References\tessdata\eng.tesseract_cube.nn
+		References\tessdata\eng.traineddata = References\tessdata\eng.traineddata
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -120,8 +171,27 @@ Global
 		{94DF8CB1-510E-47BF-9A61-22DC146DE2EA}.Release|x86.ActiveCfg = Release|x86
 		{94DF8CB1-510E-47BF-9A61-22DC146DE2EA}.Release|x86.Build.0 = Release|x86
 		{94DF8CB1-510E-47BF-9A61-22DC146DE2EA}.Release|x86.Deploy.0 = Release|x86
+		{69616565-6A55-4477-B008-6D032D51EF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Debug|ARM.Build.0 = Debug|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Debug|x64.Build.0 = Debug|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Debug|x86.Build.0 = Debug|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Release|ARM.ActiveCfg = Release|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Release|ARM.Build.0 = Release|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Release|x64.ActiveCfg = Release|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Release|x64.Build.0 = Release|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Release|x86.ActiveCfg = Release|Any CPU
+		{69616565-6A55-4477-B008-6D032D51EF47}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB769634-9987-415C-8297-CADE6BC11624} = {5B532AE5-BDF5-40FC-85C1-90EF9DC84011}
 	EndGlobalSection
 EndGlobal

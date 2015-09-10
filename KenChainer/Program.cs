@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using KenChainer.Core;
 using KenChainer.Solvers;
+using KenChainer.Transformations;
 
 namespace KenChainer
 {
@@ -25,7 +26,10 @@ namespace KenChainer
             Console.WriteLine("All Solutions:\t" + stopwatch.ElapsedMilliseconds + "ms");
             foreach (var solution in solutions)
                 Console.WriteLine(solution.ToString());
-            Console.ReadKey();
+            //Console.ReadKey();
+
+            IProblemExtractor extractor = new ProblemExtractor(@"C:\Users\Kenshin\Source\Repos\KenChainer\References\tessdata");
+            problem = extractor.GetProblem(@"C:\Users\Kenshin\Source\Repos\KenChainer\KenChainer\Problems\TestImage.jpg");
         }
 
         private static BruteForceSolver GetBruteForceSolver()

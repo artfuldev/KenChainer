@@ -1,5 +1,5 @@
 # KenChainer
-* Author(s): Kenshin Himura *(Sudarsan Balaji)*
+* Author(s): Sudarsan Balaji
 * License: *The MIT License (MIT)* (see LICENSE)
 * Application Version: 1.1.0
 * ReadMe Version: 1.1.0
